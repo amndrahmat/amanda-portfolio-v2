@@ -5,7 +5,7 @@ import "../Cards.css";
 export default function MySkills() {
   return (
     <>
-      <h1 className="myskills">My Skills</h1>
+      <h1 className="myskills" style={{backgroundImage: `url(/images/bgcover1.jpg`}}>My Skills</h1>
       <div className="cards" id="cards">
         <div className="cards__container">
           <div className="cards__wrapper">

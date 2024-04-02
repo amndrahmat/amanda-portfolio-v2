@@ -6,7 +6,7 @@ import CardItem from "../CardItem.js";
 export default function Certificaton() {
   return (
     <>
-      <h1 className="certification">Certification</h1>
+      <h1 className="certification" style={{backgroundImage: `url(/images/bgcover4.jpg`}}>Certification</h1>
       <div className="cards" id="cards">
         <div className="cards__container">
           <div className="cards__wrapper">

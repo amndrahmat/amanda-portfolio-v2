@@ -5,7 +5,7 @@ import CardItem from '../CardItem.js';
 
 export default function MyProjects() {
   return <>
-  <h1 className='myprojects'>My Projects</h1>
+  <h1 className='myprojects' style={{backgroundImage: `url(/images/bgcover3.jpg`}}>My Projects</h1>
    <div className='cards' id="cards">
       <div className='cards__container'>
         <div className='cards__wrapper'>
