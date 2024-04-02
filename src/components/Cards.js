@@ -25,7 +25,7 @@ function Cards() {
             className="social-icon-link github"
             to={{
               pathname:
-                "https://drive.google.com/file/d/1ju_L6GIygbRKqQJFcEO0c6CYmP7gWSaO/view?usp=sharing",
+                "https://drive.google.com/file/d/1Z9yYIiqAS1QHolerNeIRpEB1yEbX865U/view?usp=sharing",
             }}
             target="_blank"
             aria-label="Github"
