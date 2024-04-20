@@ -18,6 +18,11 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Amanda Rahmat Hidayat
+              </Link>
+            </li>
+            {/* <li className="nav-item">
               <Link
                 to="/achievement"
                 className="nav-links"
@@ -52,7 +57,7 @@ function Navbar() {
               >
                 Certification
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

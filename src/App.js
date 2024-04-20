@@ -9,7 +9,6 @@ import MyProjects from "./components/pages/MyProjects";
 import Achievement from "./components/pages/Achievement";
 import Certification from "./components/pages/Certification";
 
-
 function App() {
   return (
     <>
