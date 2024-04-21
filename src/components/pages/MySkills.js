@@ -5,49 +5,111 @@ import "../Cards.css";
 export default function MySkills() {
   return (
     <>
-      {/* <h1 className="myskills" style={{backgroundImage: `url(/images/bgcover1.jpg`}}>My Skills</h1> */}
       <div className="cards" id="cards" style={{ backgroundColor: "#242424" }}>
-        <h1 style={{ fontSize: "50px", color: "#fff" }}>My Skills</h1>
-        <div className="cards__container">
-          <div className="cards__wrapper">
-            <ul className="cards__items_myskills">
-              <img src="images/js.png" className="imgMySkills" alt="js" />
-              <img
-                src="images/react.png"
-                className="imgMySkills"
-                alt="Reactjs"
-              />
-              <img
-                src="images/nextjs.png"
-                className="imgMySkills"
-                alt="Nextjs"
-              />
-            </ul>
-            <ul className="cards__items_myskills">
-              <img src="images/sass.png" className="imgMySkills" alt="sass" />
-              <img src="images/sql.png" className="imgMySkills" alt="sql" />
-              <img src="images/api.png" className="imgMySkills" alt="api" />
-            </ul>
-            <ul className="cards__items_myskills">
-              <img
-                src="images/webpack.png"
-                className="imgMySkills"
-                alt="webpack"
-              />
-              <img
-                src="images/nodejs.png"
-                className="imgMySkills"
-                alt="Nodejs"
-              />
-              <img src="images/aws.png" className="imgMySkills" alt="aws" />
-              <img
-                src="images/docker.png"
-                className="imgMySkills"
-                alt="docker"
-              />
-            </ul>
+        <section id="about">
+          <p class="section__text__p1" style={{ color: "#fff" }}>
+            Explore my
+          </p>
+          <h1 class="title" style={{ color: "#fff" }}>
+            Experience
+          </h1>
+
+          <div
+            class="skills_main"
+            style={{ height: "500px", color: "#fff", marginTop: "50px" }}
+          >
+            <div class="skill_bar">
+              <div class="info">
+                <p>Javascript</p>
+                <p>90%</p>
+              </div>
+              <div class="bar">
+                <span class="javascript"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>php</p>
+                <p>65%</p>
+              </div>
+              <div class="bar">
+                <span class="php"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>CSS/SCSS</p>
+                <p>85%</p>
+              </div>
+              <div class="bar">
+                <span class="css"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>React js</p>
+                <p>80%</p>
+              </div>
+              <div class="bar">
+                <span class="react"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>Next js</p>
+                <p>70%</p>
+              </div>
+              <div class="bar">
+                <span class="next"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>Node js</p>
+                <p>75%</p>
+              </div>
+              <div class="bar">
+                <span class="node"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>Express js</p>
+                <p>75%</p>
+              </div>
+              <div class="bar">
+                <span class="express"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>MySQL</p>
+                <p>70%</p>
+              </div>
+              <div class="bar">
+                <span class="mysql"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>Mongo DB</p>
+                <p>60%</p>
+              </div>
+              <div class="bar">
+                <span class="mongo"></span>
+              </div>
+            </div>
+            <div class="skill_bar">
+              <div class="info">
+                <p>AWS</p>
+                <p>75%</p>
+              </div>
+              <div class="bar">
+                <span class="aws"></span>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );

@@ -6,7 +6,6 @@ import CardItem from "../CardItem.js";
 export default function MySkills() {
   return (
     <>
-      {/* <h1 className="achievement" style={{backgroundImage: `url(/images/bgcover2.jpg`}}>Achievement</h1> */}
       <div className="cards" id="cards">
         <h1 style={{ fontSize: "50px", color: "#242424" }}>Achievement</h1>
         <div className="cards__container">

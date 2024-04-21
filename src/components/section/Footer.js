@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 
 const ButtonMailto = ({ mailto, label }) => {
   return (
-      <Link
-          to='#'
-          onClick={(e) => {
-              window.location.href = mailto;
-              e.preventDefault();
-          }}
-      >
-        <i className="fa fa-envelope" />
-          {label}
-      </Link>
+    <Link
+      to="#"
+      onClick={(e) => {
+        window.location.href = mailto;
+        e.preventDefault();
+      }}
+    >
+      <i className="fa fa-envelope" />
+      {label}
+    </Link>
   );
 };
 
@@ -24,7 +24,10 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Contact Me</h2>
-            <ButtonMailto label=" amandarht@gmail.com" mailto="amandarht@gmail.com" />
+            <ButtonMailto
+              label=" amandarht@gmail.com"
+              mailto="amandarht@gmail.com"
+            />
             <Link
               to={{ pathname: "tel:+6287822834418" }}
               target="_blank"

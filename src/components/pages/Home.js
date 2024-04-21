@@ -12,10 +12,10 @@ function Home() {
     <>
       <HeroSection />
       <Cards />
-      <MyProjects />
-      <Achievement />
       <MySkills />
+      <MyProjects />
       <Certification />
+      <Achievement />
     </>
   );
 }

@@ -22,42 +22,6 @@ function Navbar() {
                 Amanda Rahmat Hidayat
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link
-                to="/achievement"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Achievement
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/myskills"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                My Skills
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/myprojects"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                My Projects
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/certification"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Certification
-              </Link>
-            </li> */}
           </ul>
         </div>
       </nav>

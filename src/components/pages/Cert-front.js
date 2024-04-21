@@ -7,7 +7,6 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min.js";
 export default function Certificaton() {
   return (
     <>
-      {/* <h1 className="certification" style={{backgroundImage: `url(/images/bgcover4.jpg`}}>Certification</h1> */}
       <div className="cards" id="cards">
         <h1 style={{ fontSize: "50px", color: "#242424" }}>Certification</h1>
         <div className="cards__container">

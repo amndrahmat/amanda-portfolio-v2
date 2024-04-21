@@ -10,13 +10,23 @@ function CardItem(props) {
           </figure>
           <div className="cards__item__info">
             <h5 className="cards__item__text">{props.text}</h5>
-            {props.source && <><br></br><h4>{props.source}</h4></>}
+            {props.source && (
+              <>
+                <br></br>
+                <h4>{props.source}</h4>
+              </>
+            )}
             {props.path && props.textPath && (
               <>
                 <br></br>
                 <p>
-                {props.textPath}
-                  <a href={props.path} target="_blank"  rel="noopener noreferrer" className="hover-1">
+                  {props.textPath}
+                  <a
+                    href={props.path}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover-1"
+                  >
                     {props.path}
                   </a>
                 </p>
